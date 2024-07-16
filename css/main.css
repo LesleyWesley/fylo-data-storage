@@ -1,0 +1,13 @@
+/*variables*/
+
+:root {
+  --gradient-start-clr: hsl(6, 100%, 80%);
+  --gradient-end-clr: hsl(335, 100%, 65%);
+
+  --lightest-txt-clr: hsl(243, 100%, 93%);
+  --grey-clr: hsl(229, 7%, 55%);
+  --component-bg-clr: hsl(228, 56%, 26%);
+  --button-bg-clr: hsl(229, 57%, 11%);
+}
+
+/*Base Styles*/
