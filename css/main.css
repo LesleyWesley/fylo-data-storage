@@ -10,8 +10,47 @@
   --button-bg-clr: hsl(229, 57%, 11%);
 }
 
+* {
+  box-sizing: border-box;
+}
+
 /*Base Styles*/
 
 body {
-  background-color: black;
+  font-family: "Raleway", sans-serif;
+  color: var(--lightest-txt-clr);
+  background-color: var(--button-bg-clr);
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+
+.card {
+  background-color: var(--component-bg-clr);
+  border-radius: 10px;
+  padding: 2rem;
+  width: 100%;
+}
+
+/*Specific Stylings*/
+
+.container {
+  width: 85%;
+  gap: 1rem;
 }
