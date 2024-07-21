@@ -54,3 +54,23 @@ body {
   width: 85%;
   gap: 1rem;
 }
+
+header.card {
+  border-top-right-radius: 5rem;
+  gap: 2rem;
+}
+
+.actions-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.action {
+  border: none;
+  background-color: var(--button-bg-clr);
+  height: 2.75rem;
+  aspect-ratio: 1;
+  border-radius: .5rem;
+}
