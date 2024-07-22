@@ -13,7 +13,6 @@
 * {
   box-sizing: border-box;
 }
-
 /*Base Styles*/
 
 body {
@@ -23,7 +22,7 @@ body {
   width: 100vw;
   height: 100vh;
   margin: 0;
-
+  font-size: .875rem;
 }
 
 .center {
@@ -45,6 +44,10 @@ body {
   background-color: var(--component-bg-clr);
   border-radius: 10px;
   padding: 2rem;
+  width: 100%;
+}
+
+main {
   width: 100%;
 }
 
@@ -73,4 +76,8 @@ header.card {
   height: 2.75rem;
   aspect-ratio: 1;
   border-radius: .5rem;
+}
+
+.amount-used {
+  font-weight: 700;
 }
