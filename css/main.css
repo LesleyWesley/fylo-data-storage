@@ -18,7 +18,10 @@
 body {
   font-family: "Raleway", sans-serif;
   color: var(--lightest-txt-clr);
-  background-color: var(--button-bg-clr);
+  background-image: url("../images/bg-mobile.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   width: 100vw;
   height: 100vh;
   margin: 0;
@@ -49,6 +52,7 @@ body {
 
 main {
   width: 100%;
+  position: relative;
 }
 
 /*Specific Stylings*/
@@ -76,6 +80,12 @@ header.card {
   height: 2.75rem;
   aspect-ratio: 1;
   border-radius: .5rem;
+}
+
+main .card {
+  padding-bottom: 3rem;
+  position: relative;
+  z-index: 1;
 }
 
 .amount-used {
@@ -110,4 +120,35 @@ header.card {
   background-color: #FFF;
   border-radius: 50%;
   margin-right: 2px;
+}
+
+.bar--labels {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.popup {
+  position: absolute;
+  background-color: #FFF;
+  padding:  0 1.25rem;
+  width: auto;
+  text-transform: uppercase;
+  color: var(--grey-clr);
+  font-weight: 700;
+  border-radius: 10px;
+  z-index: 2;
+  bottom: -2.25rem;
+}
+
+.popup p {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.amount-left {
+  color: var(--button-bg-clr);
+  font-size: 2.25rem;
 }
