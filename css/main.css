@@ -63,7 +63,7 @@ main {
 
 .container {
   width: 85%;
-  max-width: 50rem;
+  max-width: 60rem;
   gap: 1rem;
 }
 
@@ -162,5 +162,39 @@ main .card {
 /* MEDIA QUERIES */
 
 @media (min-width: 750px) {
+    body {
+      background-image: url("../images/bg-desktop.png");
+      background-size: auto;
+      background-position: bottom;
+      background-color: var(--button-bg-clr);
+    }
 
+    .container {
+      flex-direction: row;
+      align-items: flex-end;
+      gap: 2rem;
+    }
+
+    .card {
+      padding: 3rem;
+    }
+
+    header.card {
+      max-width: 350px;
+      gap: 2.5rem;
+    }
+
+    .action {
+      height: 3rem;
+    }
+
+    .card p {
+      text-align: left;
+      width: 100%;
+      font-size: 1rem;
+    }
+
+    .bar--container {
+      height: 1.5rem;
+    }
 }
